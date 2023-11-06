@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hawao.mk
+    $(LOCAL_DIR)/bootleg_hawao.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hawao-user \
-    lineage_hawao-userdebug \
-    lineage_hawao-eng
+    bootleg_hawao-user \
+    bootleg_hawao-userdebug \
+    bootleg_hawao-eng
