@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.bengal
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
@@ -40,7 +44,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # Permissions
 PRODUCT_COPY_FILES += \
